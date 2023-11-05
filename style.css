@@ -1,0 +1,70 @@
+.tshirt {
+    background-color: #f2f2f2;
+    border: 1px solid #000;
+    border-width: 4px; 
+    border-radius: 10px; 
+    padding: 8px; 
+    margin: 8px; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 360px; 
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    max-height: 500px; 
+}
+
+.tshirt button {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 6px; 
+    padding: 8px 16px; 
+    font-size: 14px; 
+    cursor: pointer;
+}
+
+.tshirt button:hover {
+    background-color: #084689; 
+}
+
+.tshirt h2 {
+    font-size: 20px; 
+}
+
+.colors-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.tshirt img {
+    max-height: 240px; 
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-left: 10px;
+    font-size: 26px;
+}
+
+p {
+    font-size: 14px; 
+}
+
+.tshirt .colors-list {
+    text-align: center; 
+}
+
+.tshirt ul.colors-list {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.tshirt ul.colors-list li {
+    display: inline; 
+    margin: 0 10px; 
+}
